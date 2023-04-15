@@ -279,7 +279,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -506,15 +506,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddf282730abb09e47ab03740607a9ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Map:
+  GenerateCave: 0
+  GenerateDungeon: 0
+  Bounds:
     serializedVersion: 2
     x: 0
     y: 0
     width: 64
     height: 64
-  Walls: {fileID: 465744338}
-  Floor: {fileID: 1153551129}
+  WallTilemap: {fileID: 465744338}
+  FloorTilemap: {fileID: 1153551129}
   WallTile: {fileID: 11400000, guid: 1308d318cffa6f94093f20293fbecfd0, type: 2}
   FloorTile: {fileID: 11400000, guid: a6ae44402643afd41be37b2eda1cadb9, type: 2}
-  RoomCount: 16
-  RoomSize: {x: 8, y: 16}
+  DebugTile: {fileID: 11400000, guid: ec739274c8fd4b84181588b9382061bd, type: 2}

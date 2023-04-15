@@ -194,6 +194,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: floor_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cedf814284f85d47adda2185251eaae
+      internalID: 1901375967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: debug
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6653c2bb3bd30438394c876b781cdb
+      internalID: 1967691807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape:
     - - {x: -128, y: 128}
@@ -209,6 +251,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      debug: 1967691807
+      floor_0: 1901375967
       wall_0b: -2064856032
       wall_0m: -1398286891
       wall_0t: -1398877801

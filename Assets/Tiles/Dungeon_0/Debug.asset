@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
-  m_Name: floor
+  m_Name: Debug
   m_EditorClassIdentifier: 
   m_DefaultSprite: {fileID: 0}
   m_DefaultGameObject: {fileID: 0}
@@ -18,7 +18,7 @@ MonoBehaviour:
   m_TilingRules:
   - m_Id: 0
     m_Sprites:
-    - {fileID: 1901375967, guid: 3e8b02f6b617cdd4993dcb46bdb9f5b3, type: 3}
+    - {fileID: 1967691807, guid: 3e8b02f6b617cdd4993dcb46bdb9f5b3, type: 3}
     m_GameObject: {fileID: 0}
     m_MinAnimationSpeed: 1
     m_MaxAnimationSpeed: 1
