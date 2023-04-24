@@ -1,11 +1,11 @@
 {
   "dependencies": {
     "com.singularitygroup.hotreload": {
-      "version": "git+https://gitlab.hotreload.net/root/hot-reload-releases.git#1.9.3",
+      "version": "git+https://gitlab.hotreload.net/root/hot-reload-releases.git#1.9.4",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "0b24e174d4443913c3b74de53817d8471e34b0b8"
+      "hash": "98f39db6acd8500b784752119c09e5e16aff242e"
     },
     "com.unity.2d.animation": {
       "version": "7.0.10",

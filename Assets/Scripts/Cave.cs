@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using static MapGenerator;
 
 public class Cave
 {
@@ -22,7 +23,7 @@ public class Cave
                     continue;
                 if (Random.Range(0, 100) < _threshold)
                 {
-                    Map.Instance.WallTilemap.SetTile(new Vector3Int(x, y, 0), null);
+                    Map.WallTilemap.SetTile(new Vector3Int(x, y, 0), null);
                 }
             }
         }
@@ -40,11 +41,11 @@ public class Cave
                     int neighborWallTiles = GetSurroundingWallCount(x, y);
                     if (neighborWallTiles > 4)
                     {
-                        Map.Instance.WallTilemap.SetTile(new Vector3Int(x, y, 0), Map.Instance.WallTile);
+                        Map.WallTilemap.SetTile(new Vector3Int(x, y, 0), Map.WallTile);
                     }
                     else if (neighborWallTiles < 4)
                     {
-                        Map.Instance.WallTilemap.SetTile(new Vector3Int(x, y, 0), null);
+                        Map.WallTilemap.SetTile(new Vector3Int(x, y, 0), null);
                     }
                 }
             }
@@ -62,7 +63,7 @@ public class Cave
                 {
                     if (neighborX != gridX || neighborY != gridY)
                     {
-                        if (Map.Instance.WallTilemap.GetTile(new Vector3Int(neighborX, neighborY, 0)) != null)
+                        if (Map.WallTilemap.GetTile(new Vector3Int(neighborX, neighborY, 0)) != null)
                         {
                             wallCount++;
                         }
