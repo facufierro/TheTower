@@ -1,12 +1,5 @@
 {
   "dependencies": {
-    "com.singularitygroup.hotreload": {
-      "version": "git+https://gitlab.hotreload.net/root/hot-reload-releases.git#1.9.4",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "98f39db6acd8500b784752119c09e5e16aff242e"
-    },
     "com.unity.2d.animation": {
       "version": "7.0.10",
       "depth": 1,
@@ -98,6 +91,15 @@
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.2.1"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.cinemachine": {
+      "version": "2.8.9",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.31"
       },
       "url": "https://packages.unity.com"
     },

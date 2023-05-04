@@ -5,7 +5,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-[ExecuteInEditMode]
+//[ExecuteInEditMode]
 public class MapGenerator : MonoBehaviour
 {
     public bool GenerateCave = false;
@@ -19,17 +19,14 @@ public class MapGenerator : MonoBehaviour
     public RuleTile DebugTile;
     public Vector2Int Size { get; set; }
     public List<Vector2Int> Border { get; set; }
+    public Vector2Int SpawnPoint { get; set; }
 
     public static MapGenerator Map { get; private set; }
 
-    private void OnEnable()
+    private void Awake()
     {
         Initialize();
-    }
-
-    private void Start()
-    {
-        Initialize();
+        new Cave();
     }
 
     private void Initialize()
